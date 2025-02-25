@@ -1,7 +1,7 @@
 const axios = require("axios");
 const cron = require("node-cron");
 
-cron.schedule("*/15 * * * *", async () => {
+cron.schedule("*/10 * * * *", async () => {
     try {
         await axios.get("https://expert-tools.onrender.com");
         await axios.get("https://expert-tools-api.onrender.com");
