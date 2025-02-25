@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 cron.schedule("*/10 * * * *", async () => {
   try {
+    await axios.get("https://cron-job-dpwf.onrender.com");
     await axios.get("https://expert-tools.onrender.com");
     await axios.get("https://expert-tools-api.onrender.com");
     console.log("Pings enviados com sucesso!");
