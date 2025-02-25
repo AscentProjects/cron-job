@@ -62,5 +62,5 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo e mo
 
 ---
 
-Desenvolvido por [Danilo Sousa](https://www.linkedin.com/in/danilloubr/) 
+Desenvolvido por [Danilo Sousa](https://www.linkedin.com/in/danilloubr/), qualquer dúvida entra em contato :)
 
