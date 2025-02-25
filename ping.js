@@ -5,9 +5,17 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-cron.schedule("*/10 * * * *", async () => {
+cron.schedule("*/5 * * * *", async () => {
   try {
     await axios.get("https://cron-job-dpwf.onrender.com");
+    console.log("Pings enviados com sucesso para manter a cron viva!");
+  } catch (error) {
+    console.error("Erro ao fazer requisições:", error.message);
+  }
+});
+
+cron.schedule("*/10 * * * *", async () => {
+  try {
     await axios.get("https://expert-tools.onrender.com");
     await axios.get("https://expert-tools-api.onrender.com");
     console.log("Pings enviados com sucesso!");
