@@ -9,6 +9,7 @@
   "main": "ping.js",
   "dependencies": {
     "axios": "^1.6.0",
+    "express": "^4.21.2",
     "node-cron": "^3.0.0"
   },
   "scripts": {
