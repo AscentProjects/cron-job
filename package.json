@@ -1,6 +1,9 @@
 {
   "name": "cron-job",
-  "autor": "Danilo Sousa",
+  "autor": {
+    "name": "Danilo Sousa",
+    "email": "danillou@hotmail.com"
+  },
   "version": "1.0.0",
   "description": "Script para evitar que o servidor entre em standby",
   "main": "ping.js",
